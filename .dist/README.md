@@ -17,3 +17,8 @@
     - **git push -u origin main**: Aqui o -u é a abreviação para --set-upstream. Além de enviar o branch, ele configura o branch remoto como "upstream" do branch local. Na prática isso cria um vínculo que permite rodar "git push" e "git pull" sem precisar ficar repetindo origin main toda hora.
 
 - **git branch**: Exibe na tela a branch atual que você está trabalhando.
+
+- **git checkout -b "\[nome da branch\]"**: Este comando cria uma nova branch (indicado por -b), com o nome definido pelo usuário, e por meio do "checkout" já te redireciona para a branch criada.
+    - **git checkout "\[nome da branch\]"**: Muda para a branch indicado pelo nome.
+
+- **git merge "\[nome da branch\]"**: Junta a branch especificada na branch principal (main/master)
