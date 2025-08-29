@@ -22,3 +22,10 @@
     - **git checkout "\[nome da branch\]"**: Muda para a branch indicado pelo nome.
 
 - **git merge "\[nome da branch\]"**: Junta a branch especificada na branch principal (main/master)
+
+## Conceitos de Git
+
+- **.gitgnore**: É um arquivo que especifica outros arquivos ou diretórios que não devem ser versionados com o Git. Os arquivos especificados normalmente poluiriam o repositório, ou teriam informações sensíveis como senhas e tokens de API's.
+    - **.alguma-coisa**: ignora todos os arquivos com o final .alguma-coisa. Aqui, o "*" é um caracter curinga.
+    - **nome-da-pasta/**: ignora a pasta inteira
+    - **nome-do-arquivo**: ignora apenas aquele arquivo em específico
